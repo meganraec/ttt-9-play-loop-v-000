@@ -38,7 +38,7 @@ end
 # Define your play method below
 
 def play(board)
-  unless board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]]
+  until board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
    turn(board)
   end
   puts "The game is complete."
